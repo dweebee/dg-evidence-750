@@ -1,11 +1,10 @@
 # dg-evidence-750
 
-**750 expert-audited claim–passage pairs**: 150 financial claims × 5 web
-passages published on or before each claim date.
+**750 expert-audited claim–passage pairs**: 150 financial claims × 5 web passages published on or before each claim date.
 
-The dataset distinguishes topical relevance from **decision-grade evidence**:
-credible, temporally valid, claim-matched evidence that is independently
-sufficient to support or refute a claim.
+The dataset distinguishes topical relevance from **decision-grade evidence**: credible, temporally valid, claim-matched evidence that is independently sufficient to support or refute a claim.
+
+## Data: `dg-evidence-750.jsonl`
 
 ## Labels
 
@@ -31,9 +30,4 @@ sufficient to support or refute a claim.
 
 ## Provenance
 
-Claims come from the **Fin-Fact training split**. Passages were retrieved
-through claim-only web search from publicly accessible pages and frozen
-after a label-blind integrity audit. Two blinded annotators labelled all
-pairs, followed by full expert audit and adjudication.
-
-Passage excerpts remain the property of their original publishers.
+Claims come from the **Fin-Fact training split**. Passages were retrieved through claim-only web search from publicly accessible pages and frozen after a label-blind integrity audit. Two blinded annotators labelled all pairs, followed by full expert audit and adjudication.
